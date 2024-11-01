@@ -1,4 +1,4 @@
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/828fbe83-2994-43c5-8384-c27699511bc8"># labspy03
+# labspy03
 
 Tugas praktikum 4
 
