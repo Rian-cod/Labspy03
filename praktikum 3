@@ -1,0 +1,20 @@
+investasi_awal = 100000000
+total_laba = 0
+laba_bulanan = 0
+
+for bulan in range(1, 9):
+    if bulan <= 2:
+        laba_bulanan = 0 
+    elif bulan == 3:
+        laba_bulanan = investasi_awal * 0.01 
+    elif bulan == 5:
+        laba_bulanan = investasi_awal * 0.05
+    elif bulan == 8:
+        laba_bulanan = investasi_awal * 0.03 
+    else:
+        laba_bulanan = investasi_awal * 0.01 
+
+    total_laba += laba_bulanan
+    print(f"Laba bulan ke-{bulan} sebesar: {int(laba_bulanan)}")
+
+print(f"Total laba adalah: {int(total_laba)}")

@@ -1,0 +1,11 @@
+print("Masukkan bilangan satu per satu (masukkan 0 untuk berhenti):")
+terbesar = None
+
+while True:
+    bilangan = int(input("Masukkan bilangan: "))
+
+    if bilangan == 0:
+        break
+    if terbesar is None or bilangan > terbesar:
+        terbesar = bilangan
+

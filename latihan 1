@@ -1,0 +1,14 @@
+import random
+n = int(input("Masukkan nilai N: "))
+
+count = 0
+data = []
+
+while count < n:
+    angka_acak = random.random()
+    if angka_acak < 0.5:
+        data.append(angka_acak)
+        print(f"data ke-{count + 1} => {angka_acak}")
+        count += 1
+
+print("Selesai")
